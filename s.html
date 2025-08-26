@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>XSS PoC</title>
+</head>
+<body>
+  <h1>Hello Adnan 💚</h1>
+
+  <script>
+    alert("XSS Test: " + document.domain);
+  </script>
+</body>
+</html>
